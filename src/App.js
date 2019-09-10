@@ -26,8 +26,8 @@ const MyComponent = () => (
     <Spacer height={20} />
     <Card>
       <Card.header>Title!</Card.header>
-      <Card.content />
-      <Card.footer />
+      <Card.content color="background">Check out this content</Card.content>
+      <Card.footer>Footer</Card.footer>
     </Card>
   </Flex>
 );
